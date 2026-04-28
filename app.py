@@ -8,8 +8,8 @@ import requests
 import os
 
 # --- API Configuration ---
-# Fallback to localhost if no environment variable is set
-DEFAULT_API_URL = "http://localhost:8000"
+# Fallback to the live production URL if no environment variable is set
+DEFAULT_API_URL = "https://credit-wise-api.onrender.com"
 API_URL = os.environ.get("BACKEND_URL", DEFAULT_API_URL)
 
 # ─── Page Config ──────────────────────────────────────────────────────────────
