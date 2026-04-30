@@ -1,0 +1,29 @@
+# Virtual environment
+.venv/
+
+# Git
+.git/
+.gitignore
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Jupyter notebooks & problem statement image
+Credit_wise.ipynb
+Problem Statement.jpg
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
+
+# Docker
+Dockerfile
+.dockerignore
+docker-compose*.yml
+
+# OS
+Thumbs.db
+.DS_Store
